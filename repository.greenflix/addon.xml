@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addon 
+  id="repository.greenflix" 
+  name="[COLOR lime]Repositório Greeenflix [COLOR green]OFICIAL[/COLOR]" 
+  version="0.1.1" 
+  provider-name="Team Greenflix">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>  
+  </requires>
+  <extension point="xbmc.addon.repository" name="[COLOR white]KodiloucosBR [COLOR gold]Repositorio[/COLOR]">
+      <dir>
+      <info compressed="true">https://raw.github.com/Greenflix/greenflix.github.io/master/addons.xml</info>
+      <checksum>https://raw.github.com/Greenflix/greenflix.github.io/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Greenflix/greenflix.github.io/master</datadir>
+      <hashes>false</hashes>
+  </dir>  
+  <dir minversion="19.0.0">
+      <info compressed="true">https://raw.github.com/Greenflix/greenflix.github.io/master/matrix/addons.xml</info>
+      <checksum>https://raw.github.com/Greenflix/greenflix.github.io/master/matrix/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Greenflix/greenflix.github.io/master/matrix</datadir>
+      <hashes>false</hashes>
+  </dir>    
+  <dir minversion="20.9.9">
+      <info compressed="true">https://raw.github.com/Greenflix/greenflix.github.io/master/nexus/addons.xml</info>
+      <checksum>https://raw.github.com/Greenflix/greenflix.github.io/master/nexus/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.github.com/Greenflix/greenflix.github.io/master/nexus</datadir>
+      <hashes>false</hashes>
+  </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary>Repositório Green Flix</summary>
+        <description>[B][COLOR blue]●[/COLOR] [COLOR white]Repositório oficial do Green Flix - 2024[/COLOR][/B]
+        [B][COLOR firebrick]●[/COLOR] [COLOR white]Proibido a venda dos add-ons do Green Flix.[/COLOR][/B]
+        [B][COLOR firebrick]●[/COLOR] [COLOR white]Não vendemos IPTV, caso ache sites ou mesmo apps é falso.[/COLOR][/B]
+		</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
